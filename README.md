@@ -310,7 +310,7 @@ After extracting and running the Firefox.exe; I attached it to my taskbar and ma
 - _**alias ping='ping -c 5'**_ - very useful for wanting to test connectivity without realizing that you're about to unlease what seems to be an infinite # of packet requests
 - _**alias bestclass='echo codi's section is the best'**_ - testing aliases out; echos a statement that is probably true
 
-### End of Installation
+## End of Installation
 
 Hopefully, by following these instructions and a good enough prowess to use Google to resolve issues, you'll have successfully installed Arch Linux.
 It was definitely an interesting experience albeit one that is tough for newcomers to the Linux scene.
