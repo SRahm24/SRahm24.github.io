@@ -56,7 +56,7 @@ EFI mount and the other as the dedicated mount.
 - _**mkdir -p /mnt/boot/efi**_ - Creates the efi boot directory that will be mounted in the EFI system partition
 - _**sudo mount /dev/sda1 /boot/efi**_ - Mounts the efi boot directory onto the EFI system partition
 
-### 4 Updating the System Clock
+### 4. Updating the System Clock
 
 This one is pretty self explanatory and directly from the Arch installation wiki; in order for the system 
 to not be internally confused about what time it is or even what day it is - the system clock is essentially
@@ -309,3 +309,8 @@ After extracting and running the Firefox.exe; I attached it to my taskbar and ma
 - _**alias rb='sudo reboot'**_ - short command for easy reboots
 - _**alias ping='ping -c 5'**_ - very useful for wanting to test connectivity without realizing that you're about to unlease what seems to be an infinite # of packet requests
 - _**alias bestclass='echo codi's section is the best'**_ - testing aliases out; echos a statement that is probably true
+
+### End of Installation
+
+Hopefully, by following these instructions and a good enough prowess to use Google to resolve issues, you'll have successfully installed Arch Linux.
+It was definitely an interesting experience albeit one that is tough for newcomers to the Linux scene.
