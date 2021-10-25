@@ -152,6 +152,8 @@ In order to install the NetworkManager before reboot, we must update the package
 - _**mount /dev/sda1 /mnt**_ - Mounts the boot disk as the mounted partition
 - _**grub-install --efi-directory=/dev/sda1**_ - Installs a EFI directory to the boot disk via GRUB 
 
+Admittedtly, this was probably the most difficult part of the installation for me, as I had confused myself with mounting both SDA1 (EFI boot partition) and SDA2 as mkfs.ext4 rather than actually just the main drive. It is still something that confuses me but I believe I resolved it when I unmounted SDA1 and made no alterations to it; only setting SDA1 as a EFI through manually creating its EFI directory and then installing installing grub with sudo; which may have forced it to install to SDA1 as originally intended.
+
 ### 8. Rebooting
 
 Pressing Ctrl+D allows the user to exit the chroot environment and back into the regular user
