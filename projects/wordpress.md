@@ -27,8 +27,8 @@ Next, navigate through file explorer to the install directory, and create a new 
 
 Edit the .yml file with your choice of text editor
 
-(You can also create a new .yml by utilizing the command #echo "basic" > docker-compose.yml; echo is used to direct a single string "basic"
-into a new .yml file since touch is unusable on a Windows command prompt shell)
+(You can also create a new .yml by utilizing the command: 
+- _**#echo "basic" > docker-compose.yml**_ - Echo is used to direct a single string "basic" into a new .yml file since touch is unusable on a Windows command prompt shell)
 
 Edit the docker-compose.yml by navigating to its directory in the file editor with your choice of text editor due to the fact that command prompt only has "copy con" as a text editor (Copy con <filename> does work but absolutely inefficiently as it takes time to write to the file):
   
