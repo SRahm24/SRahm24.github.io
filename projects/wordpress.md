@@ -15,9 +15,7 @@ After running the install wizard for Docker and enabling virtualization, install
 
 By opening your command prompt ater a successful installation of Docker, you can immediately get to work to installing Wordpress
 
-- _**docker-compose --version**_ - Ensure that docker compose is installed (it is by default on all Windows installs) by checking its version
-# Prints Docker Compose version v2.1.1
-
+- _**docker-compose --version**_ - Ensure that docker compose is installed (it is by default on all Windows installs) by checking its version - Prints Docker Compose version v2.1.1
 
 - _**mkdir Wordpress**_ - Create a new directory for your wordpress installation
 
@@ -34,7 +32,8 @@ into a new .yml file since touch is unusable on a Windows command prompt shell)
 
 Edit the docker-compose.yml by navigating to its directory in the file editor with your choice of text editor due to the fact that command prompt only has "copy con" as a text editor (Copy con <filename> does work but absolutely inefficiently as it takes time to write to the file):
   
-- _**version: '3.3'
+```
+version: '3.3'
 services:
    db:
      image: mysql:5.7
@@ -59,7 +58,8 @@ services:
        WORDPRESS_DB_PASSWORD: wordpress
        WORDPRESS_DB_NAME: wordpress
 volumes:
-    db_data: {}**_
+    db_data: {}
+```
 
 ### 4. Installing WordPress
 
@@ -75,7 +75,11 @@ Run through the install wizard to set up your very own Wordpress website: a webs
 
 Once a user and password are created, you can then log in, and will be greeted with the Wordpress admin interface hosted from your very own Docker container.
 
+![Screenshot_9](https://user-images.githubusercontent.com/54213991/141718414-357e3028-654b-45a1-9d86-9daf0d4c4a0f.png)
+  
+  
 ### Resources:
 
 https://docs.docker.com/desktop/windows/install/
+
 https://www.hostinger.com/tutorials/run-docker-wordpress
