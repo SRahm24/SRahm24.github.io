@@ -13,13 +13,13 @@ After running the install wizard for Docker and enabling virtualization, install
 
 ### 2. Preparing WordPress Install
 
-By opening your command prompt ater a successful installation of Docker, you can immediately get to work to installing Wordpress
+By opening your command prompt ater a successful installation of Docker, you can immediately get to work to installing WordPress
 
 - _**docker-compose --version**_ - Ensure that docker compose is installed (it is by default on all Windows installs) by checking its version - Prints Docker Compose version v2.1.1
 
-- _**mkdir Wordpress**_ - Create a new directory for your wordpress installation
+- _**mkdir WordPress**_ - Create a new directory for your WordPress installation
 
-- _**cd Wordpress**_ - change your directory to the new wordpress installation
+- _**cd WordPress**_ - change your directory to the new WordPress installation
 
 ### 3. Creating the docker-compose.yml 
 
@@ -65,15 +65,15 @@ volumes:
 
 Once the .yml is created and set up, execute it through a command prompt:
   
-- _**docker-compose up -d**_ - Creates the necessary containers for the Wordpress installation to function; will take time to pull the image and set up Wordpress.
+- _**docker-compose up -d**_ - Creates the necessary containers for the WordPress installation to function; will take time to pull the image and set up WordPress.
   
-Installation of the WordPress image will take a couple minutes; once it is complete, head to the url "http://localhost:8000/" to access your Wordpress installation and set up a website. (The docker-compose.yml set up a Wordpress container on a local host, specifically port 8000, which allows us to access it).
+Installation of the WordPress image will take a couple minutes; once it is complete, head to the url "http://localhost:8000/" to access your WordPress installation and set up a website. (The docker-compose.yml set up a WordPress container on a local host, specifically port 8000, which allows us to access it).
 
-Run through the install wizard to set up your very own Wordpress website: a website name, your username, and password.
+Run through the install wizard to set up your very own WordPress website: a website name, your username, and password.
   
 ## End of Installation
 
-Once a user and password are created, you can then log in, and will be greeted with the Wordpress admin interface hosted from your very own Docker container.
+Once a user and password are created, you can then log in, and will be greeted with the WordPress admin interface hosted from your very own Docker container.
 
 ![Screenshot_9](https://user-images.githubusercontent.com/54213991/141718414-357e3028-654b-45a1-9d86-9daf0d4c4a0f.png)
   
