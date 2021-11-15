@@ -1,7 +1,7 @@
 ## WordPress Installation Documentation
 ### By Sajid Rahman
 
-This .md chronicles the process of installing WordPress through Docker on WIndows
+This .md chronicles the process of installing WordPress through Docker on Windows
 
 ## Beginning the WordPress Installation
 ### 1. Install Docker on Windows
